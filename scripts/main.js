@@ -4,10 +4,10 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
-  if(mySrc === 'images/tennis.png') {
-    myImage.setAttribute ('src','images/sports_tennis_man.png');
+  if(mySrc === 'https://github.com/inoue021231/webp-excercise1/images/tennis.png') {
+    myImage.setAttribute ('src','https://github.com/inoue021231/webp-excercise1/images/sports_tennis_man.png');
   } else {
-    myImage.setAttribute ('src','images/tennis.png');
+    myImage.setAttribute ('src','https://github.com/inoue021231/webp-excercise1/images/tennis.png');
   }
 }
 
